@@ -1,17 +1,12 @@
 "use client";
 
 import { useState } from 'react';
-import { Montserrat, Fredoka } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import { motion } from 'framer-motion';
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "700"],
-});
-
-const fredoka = Fredoka({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
 });
 
 const sections = [
@@ -81,15 +76,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <span
-              className={`${fredoka.className} text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-blue-400`}
-              style={{
-                lineHeight: 0.8,
-                marginTop: '-0.3em',
-                marginBottom: '-0.3em',
-                display: 'inline-block',
-              }}
-            >
+            <span className="heals-logo heals-logo-navbar antialiased">
               heals
             </span>
           </div>

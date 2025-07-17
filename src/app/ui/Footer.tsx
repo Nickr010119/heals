@@ -1,12 +1,16 @@
 "use client";
 
 import React from 'react';
-
-import { Lato } from "next/font/google";
+import { Lato, Fredoka } from "next/font/google";
 
 const lato = Lato({
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const Footer = () => {
@@ -16,7 +20,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between">
           <div className="mb-8 md:mb-0">
             <div className="flex items-center mb-4">
-              <span className="text-xl heals-logo">Heals</span>
+              <span className={`${fredoka.className} text-2xl font-bold text-blue-400`}>Heals</span>
             </div>
             <p className={`${lato.className} max-w-xs text-gray-400`}>Expertos en fisioterapia.</p>
           </div>

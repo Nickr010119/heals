@@ -1,12 +1,17 @@
 "use client";
 
 import { useState } from 'react';
-import { Montserrat } from "next/font/google";
+import { Montserrat, Fredoka } from "next/font/google";
 import { motion } from 'framer-motion';
 
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["400", "700"],
+});
+
+const fredoka = Fredoka({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const sections = [
@@ -77,7 +82,7 @@ export default function Navbar() {
           {/* Logo */}
           <div className="flex items-center">
             <span
-              className="heals-logo text-7xl md:text-8xl lg:text-9xl font-bold"
+              className={`${fredoka.className} text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-blue-400`}
               style={{
                 lineHeight: 0.8,
                 marginTop: '-0.3em',

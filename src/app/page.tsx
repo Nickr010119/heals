@@ -3,9 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { Montserrat } from "next/font/google";
-import Footer from './ui/Footer';
 import ImageGallery from './ui/ImageGallery';
-import Navbar from "./ui/Navbar";
 import SuperposedSection from './ui/SuperposedSection';
 
 // Si usas Font Awesome como componentes React, necesitarías importarlos:
@@ -721,7 +719,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">"Excelente servicio de fisioterapia. El personal es muy profesional y las instalaciones están muy bien equipadas. Recomendado al 100%."</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Excelente servicio de fisioterapia. El personal es muy profesional y las instalaciones están muy bien equipadas. Recomendado al 100%.&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google
@@ -740,7 +738,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">"Muy buena atención y tratamiento efectivo. Los fisioterapeutas son muy conocedores y me ayudaron mucho con mi recuperación."</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Muy buena atención y tratamiento efectivo. Los fisioterapeutas son muy conocedores y me ayudaron mucho con mi recuperación.&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google
@@ -759,7 +757,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">"Lugar muy recomendado para fisioterapia. Ambiente agradable y profesionales muy capacitados. Estoy muy satisfecho con los resultados."</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Lugar muy recomendado para fisioterapia. Ambiente agradable y profesionales muy capacitados. Estoy muy satisfecho con los resultados.&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google
@@ -816,8 +814,6 @@ ${formData.message}`;
           </svg>
         </button>
       </div>
-
-      <Footer />
     </main>
   );
 }

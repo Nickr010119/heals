@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { useGoogleReviews, GoogleReview, formatReviewDate } from '../utils/googleReviews';
+import Image from 'next/image';
+import { useGoogleReviews, GoogleReview } from '../utils/googleReviews';
 
 interface ReviewCardProps {
   review: GoogleReview;
@@ -30,13 +31,15 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => {
         </div>
         <span className="text-xs text-gray-500">{review.relative_time_description}</span>
       </div>
-      <p className="text-gray-700 text-sm mb-2 italic">"{review.text}"</p>
+      <p className="text-gray-700 text-sm mb-2 italic">&ldquo;{review.text}&rdquo;</p>
       <div className="flex items-center justify-between">
         <p className="text-xs text-gray-500">- {review.author_name}</p>
         {review.profile_photo_url && (
-          <img
+          <Image
             src={review.profile_photo_url}
             alt={review.author_name}
+            width={24}
+            height={24}
             className="w-6 h-6 rounded-full"
           />
         )}

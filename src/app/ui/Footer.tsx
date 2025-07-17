@@ -1,16 +1,6 @@
 "use client";
 
-import { useState } from 'react';
-// components/Footer.jsx (o .tsx si usas TypeScript)
-
 import React from 'react';
-
-import { Montserrat } from "next/font/google";
-
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 import { Lato } from "next/font/google";
 

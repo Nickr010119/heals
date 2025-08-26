@@ -87,25 +87,25 @@ export const renderStars = (rating: number): string => {
 // Reseñas de respaldo en caso de que la API no esté disponible
 export const fallbackReviews: GoogleReview[] = [
   {
-    author_name: "María González",
+    author_name: "Martha Pulido Durán",
     rating: 5,
-    text: "Excelente atención y profesionalismo. El tratamiento para mi dolor de espalda fue muy efectivo. Totalmente recomendado.",
+    text: "Excelente atención con profesionales especializados de la más alta calidad! Atentos y preocupados por el bienestar del paciente!",
     relative_time_description: "hace 2 semanas",
     time: Date.now() / 1000 - (2 * 7 * 24 * 60 * 60),
     language: "es"
   },
   {
-    author_name: "Carlos Rodríguez",
+    author_name: "Joanna Paola Baquero",
     rating: 5,
-    text: "Increíble servicio. Después de semanas de dolor en el hombro, finalmente encontré alivio aquí. El equipo es muy profesional.",
+    text: "Estoy muy satisfecha con el servicio prestado, el tiempo dedicado en cada sesión y los resultados después de cada terapia. Gracias",
     relative_time_description: "hace 1 mes",
     time: Date.now() / 1000 - (4 * 7 * 24 * 60 * 60),
     language: "es"
   },
   {
-    author_name: "Ana Martínez",
+    author_name: "Gustavo Ardila EXP",
     rating: 5,
-    text: "La mejor clínica de fisioterapia. Tratamiento personalizado y resultados rápidos. ¡Gracias por ayudarme a recuperarme!",
+    text: "MARAVILLOSO!!!",
     relative_time_description: "hace 3 semanas",
     time: Date.now() / 1000 - (3 * 7 * 24 * 60 * 60),
     language: "es"

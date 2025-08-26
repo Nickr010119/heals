@@ -240,7 +240,7 @@ ${formData.message}`;
                     Nuestros profesionales en fisioterapia combinan años de experiencia clínica con las técnicas más avanzadas en rehabilitación para brindarte el mejor cuidado 
                     personalizado. Cada miembro de nuestro equipo está comprometido con tu recuperación, bienestar y mejora de la calidad de vida.
                   </p>
-                  <div className="flex justify-center">
+                  <div className="flex justify-center gap-4">
                     <a 
                       href="https://www.instagram.com/heals_fisio.col/" 
                       target="_blank" 
@@ -250,6 +250,16 @@ ${formData.message}`;
                     >
                       <i className="fab fa-instagram text-lg" aria-hidden="true"></i>
                       Síguenos en Instagram
+                    </a>
+                    <a
+                      href="https://www.linkedin.com/company/heals-fisioterapia-y-rehabilitacion/posts/?feedView=all&viewAsMember=true"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 bg-blue-700 hover:bg-blue-800 text-white font-medium py-2 sm:py-3 px-4 sm:px-6 rounded-full transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-lg text-sm sm:text-base"
+                      aria-label="Síguenos en LinkedIn para ver más sobre nuestro equipo de fisioterapeutas"
+                    >
+                      <i className="fab fa-linkedin text-lg" aria-hidden="true"></i>
+                      Síguenos en LinkedIn
                     </a>
                   </div>
                 </div>
@@ -719,7 +729,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Excelente servicio de fisioterapia. El personal es muy profesional y las instalaciones están muy bien equipadas. Recomendado al 100%.&rdquo;</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Excelente atención con profesionales especializados de la más alta calidad! Atentos y preocupados por el bienestar del paciente!&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google
@@ -738,7 +748,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Muy buena atención y tratamiento efectivo. Los fisioterapeutas son muy conocedores y me ayudaron mucho con mi recuperación.&rdquo;</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Estoy muy satisfecha con el servicio prestado, el tiempo dedicado en cada sesión y los resultados después de cada terapia. Gracias&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google
@@ -757,7 +767,7 @@ ${formData.message}`;
                           </div>
                           <span className="ml-2 text-sm text-gray-600">5/5</span>
                         </div>
-                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;Lugar muy recomendado para fisioterapia. Ambiente agradable y profesionales muy capacitados. Estoy muy satisfecho con los resultados.&rdquo;</p>
+                        <p className="text-gray-700 text-sm mb-2 italic">&ldquo;MARAVILLOSO!!!&rdquo;</p>
                         <p className="text-xs text-gray-500 flex items-center gap-1">
                           <i className="fab fa-google text-blue-500"></i>
                           Reseña verificada de Google

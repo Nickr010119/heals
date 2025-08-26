@@ -61,6 +61,15 @@ const Footer = () => {
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
+                <a
+                  href="https://www.linkedin.com/company/heals-fisioterapia-y-rehabilitacion/posts/?feedView=all&viewAsMember=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition text-xl"
+                  aria-label="Síguenos en LinkedIn"
+                >
+                  <i className="fab fa-linkedin"></i>
+                </a>
               </div>
             </div>
           </div>
